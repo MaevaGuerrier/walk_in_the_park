@@ -10,6 +10,7 @@ testGym/
 
 # medias
 videos/
+wandb/
 
 # Docker, ignore for now as it is not used
 docker/

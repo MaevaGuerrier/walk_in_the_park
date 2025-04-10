@@ -1,0 +1,19 @@
+pip
+jax[cuda]
+--find-links https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+flax
+tqdm
+gym==v0.20.0
+tensorflow==2.15.0
+tensorflow_probability==0.23.0
+ml_collections
+wandb
+dm_control
+# ABOVE ARE WORKING NO ISSUES
+# ISSUE WITH THE WAY THEY INSTALL MUJOCO dmcgym @ git+https://github.com/ikostrikov/dmcgym
+dmcgym @ git+https://github.com/MaevaGuerrier/dmcgym
+pybullet
+attrs
+filterpy
+
+
